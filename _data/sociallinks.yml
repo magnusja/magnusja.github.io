@@ -1,0 +1,9 @@
+- name: Email
+  icon: fa-envelope
+  link: mailto:magnus@jahnen.me
+- name: LinkedIn
+  icon: fa-linkedin
+  link: https://www.linkedin.com/in/magnusja
+- name: GitHub
+  icon: fa-github
+  link: https://github.com/magnusja

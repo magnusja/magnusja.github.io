@@ -1,0 +1,59 @@
+- name: Deep Drones
+  description: In 2016 we made a drone fly semi-autonomsly. We used OpenCV and a CNN to make the drone follow an authorized face in front of it.
+  skills:
+    - OpenCV
+    - CNN (Caffe)
+  image: assets/img/projects/drone.jpg
+  links:
+    Website: http://www.cdtm.de/wwwDeepDrones/
+    GitHub: https://github.com/magnusja/WasIstDasFuer1Drone
+- name: Activity Recognition
+  description: In 2015 we developed an Apple Watch application for activity and exercise recognition for eGym during the MPD course at CDTM. For the recognition I ported the Gesture Recognition Toolkit to the Apple Watch OS and we trained a Dynamic Time Warping model to classify movements (accelerometer values).
+  skills:
+    - Swift
+    - DWT
+  image: assets/img/projects/egym.png
+  links:
+    eGym: https://www.eGym.com
+    CDTM: http://www.cdtm.de
+    Featured Blog Post: https://www.nickarner.com/blog/2017/8/21/integrating-the-grt-into-an-iphone-app
+    GitHub: https://github.com/magnusja/WatchGRT
+- name: libaums
+  description: In 2014 I developed an open source library for my bachelor thesis to access USB mass storage devices from Android phones and tablets without rooting your device. This included impleneting the SCSI command set as well as FAT32 in Java. The library is used in a couple of other projects, like AnExplorer, and in ongoing development.
+  skills:
+    - Android USB Host
+    - File Systems (e.g. FAT32)
+  image: assets/img/projects/libaums.png
+  links:
+    Read thesis: https://www.os.in.tum.de/fileadmin/w00bdp/www/Lehre/Abschlussarbeiten/Jahnen-thesis.pdf
+    GitHub: https://github.com/magnusja/libaums
+- name: Hackathons
+  description: Since 2011 I am regularly taking part in Hackathons, including TreeHacks (Stanford), Cal Hacks (University of Berkeley), and TechCrunch Disrupt in the Bay Area as well as app@night in Munich.
+  image: assets/img/projects/hackathons.jpg
+  links:
+    Devpost: https://devpost.com/magnusja
+- name: Entrepreneurship in Bavaria
+  description: In 2015 we analysed entrepreneurship in Bavaria during the Trend Seminar at CDTM.
+  skills:
+    - Research
+    - Entrepreneurship
+  image: assets/img/projects/trend.png
+  links:
+    Read: http://www.cdtm.de/wp-content/uploads/CDTM-Trend-Report-Entrepreneurship-in-Bavaria-Fall-2015.pdf
+    CDTM Trend Reports: http://www.cdtm.de/research/bookstore/
+- name: AgileFactory
+  description: In 2015 we developed an Industry 4.0 showcase called AgileFactory together with the software engineering faculty at TUM and T-Systems Innovation Center.
+  skills:
+    - iOS
+    - Swift
+  image: assets/img/projects/agilefactory.png
+  links:
+    More: https://www1.in.tum.de/lehrstuhl_1/component/content/article/106-teaching/ss2015/619#tsystems
+- name: Traffic Sign Recognition
+  description: In 2015 we trained an AlexNet using Caffe to classify German Traffic Signs.
+  skills:
+    - CNN
+    - Caffe
+  image: assets/img/projects/traffic_signs.png
+  links:
+    GitHub: https://github.com/magnusja/GTSRB-caffe-model

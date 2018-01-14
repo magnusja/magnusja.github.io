@@ -1,17 +1,15 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
+title: Magnus J. Jahnen
 description: A blog about lorem ipsum dolor sit amet
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "localhost:3000"
 
 # User settings
-username: Anon Developer
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
-user_title: Software Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+username: Magnus J. Jahnen
+user_description: Software Engineer with focus on machine learning, distributed systems and a little bit of IT security. In addition, I am quite experienced with mobile app development.
+user_title: Passionate Software Engineer
+
+resume_link: https://www.dropbox.com/s/73xruivkzjih683/resume.pdf?raw=1
 
 # Google-analytics
 google-analytics:

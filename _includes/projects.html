@@ -1,29 +1,26 @@
 <div class="user-details">
   <h1> Featured Projects </h1>
 </div>
+
+{% for project in site.data.projects %}
 <div class="user-projects">
-  <div class="images-right">
-    <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
+  <div class="{% cycle 'images-right', 'images-left' %}">
+    <img alt="{{ project.name }}" src="{{ project.image | prepend: site.baseurl }}" />
   </div>
-  <div class="contents">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+  <div class="{% cycle 'contents', 'contents-right' %}">
+    <h3> {{ project.name }} </h3>
+    <!-- <ul>
+      {% for skill in project.skills %}
+      <li>{{ skill }}</li>
+      {% endfor %}
+    </ul> -->
+    <p>{{ project.description }}</p>
+
+    <div>
+    {% for link in project.links %}
+      <a href="{{ link[1] }}">{{ link[0] }}</a>
+    {% endfor %}
+    </div>
   </div>
 </div>
-<div class="user-projects">
-  <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
-  </div>
-  <div class="contents-right">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
-  </div>
-</div>
+{% endfor %}
