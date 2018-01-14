@@ -1,8 +1,8 @@
 # Site settings
 title: Magnus J. Jahnen
-description: A blog about lorem ipsum dolor sit amet
+description: Magnus J. Jahnen personal website
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
-url: "localhost:3000"
+url: "jahnen.me"
 
 # User settings
 username: Magnus J. Jahnen
@@ -13,6 +13,6 @@ resume_link: https://www.dropbox.com/s/73xruivkzjih683/resume.pdf?raw=1
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-112460851-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
