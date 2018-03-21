@@ -7,6 +7,15 @@
   links:
     Website: http://www.cdtm.de/wwwDeepDrones/
     GitHub: https://github.com/magnusja/WasIstDasFuer1Drone
+- name: MyriadHub
+  description: In 2016 during my abroad semester at Stanford I worked in the HCI group under Michael Bernstein directly supervised by Nicolas Kokkalis on a website called MyriadHub. MyriadHub is a crowd source based email tool to send large campaigns and collect and analyse responses.
+  skills:
+    - Ruby On Rails
+    - Crowd Sourcing
+    - HCI
+  image: assets/img/projects/myriad.png
+  links:
+    Website: https://myriadhub.com/
 - name: Activity Recognition
   description: In 2015 we developed an Apple Watch application for activity and exercise recognition for eGym during the MPD course at CDTM. For the recognition I ported the Gesture Recognition Toolkit to the Apple Watch OS and we trained a Dynamic Time Warping model to classify movements (accelerometer values).
   skills:
@@ -41,6 +50,14 @@
   links:
     Read: http://www.cdtm.de/wp-content/uploads/CDTM-Trend-Report-Entrepreneurship-in-Bavaria-Fall-2015.pdf
     CDTM Trend Reports: http://www.cdtm.de/research/bookstore/
+- name: Midi software
+  description: Since 2012 I am regularly freelancing for Bome Software a small company based in Munich. I worked on the MidiTranslator as well as the BomeBox which is a OpenWRT/Carambola based all in one midi router.
+  skills:
+    - C++
+    - Midi
+  image: assets/img/projects/bome.jpg
+  links:
+    Bome website: https://www.bome.com/
 - name: AgileFactory
   description: In 2015 we developed an Industry 4.0 showcase called AgileFactory together with the software engineering faculty at TUM and T-Systems Innovation Center.
   skills:
@@ -49,11 +66,3 @@
   image: assets/img/projects/agilefactory.png
   links:
     More: https://www1.in.tum.de/lehrstuhl_1/component/content/article/106-teaching/ss2015/619#tsystems
-- name: Traffic Sign Recognition
-  description: In 2015 we trained an AlexNet using Caffe to classify German Traffic Signs.
-  skills:
-    - CNN
-    - Caffe
-  image: assets/img/projects/traffic_signs.png
-  links:
-    GitHub: https://github.com/magnusja/GTSRB-caffe-model
