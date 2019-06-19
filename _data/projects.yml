@@ -18,6 +18,7 @@
   image: assets/img/projects/thesis.jpg
   links:
     Abstract: https://u.jahnen.me/thesis_abstract
+    MBRDNA: https://u.jahnen.me/mbrdna
 - name: Deep Drones
   description: In 2016 we made a drone fly semi-autonomsly. We used OpenCV and a CNN to make the drone follow an authorized face in front of it.
   skills:
