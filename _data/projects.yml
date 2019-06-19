@@ -14,7 +14,7 @@
     - tensorflow
     - Reinforcement Learning
     - Policy Gradients
-    _ Generative Adversarial Imitation Learning
+    - Generative Adversarial Imitation Learning
   image: assets/img/projects/thesis.jpg
   links:
     Abstract: https://u.jahnen.me/thesis_abstract
