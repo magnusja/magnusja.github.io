@@ -1,6 +1,6 @@
 
 - name: Uncertainty estimation in Deep Learning
-  description: In a practical course at TUM we analyzed Monte Carlo (Gal et al., 2015) dropout for estimating model uncertainity using two different retinal scan datasets (segmentation).
+  description: In a practical course at TUM we analyzed Monte Carlo dropout (Gal et al., 2015) for estimating model uncertainity using two different retinal scan datasets (segmentation).
   skills:
     - PyTorch
     - MC Dropout
