@@ -11,9 +11,7 @@
 - name: Masters Thesis
   description: "Title: Deep Inverse Reinforcement Learning for trajectory planning in fully-autonomous vehicles, received best possible grade. Under NDA, therefore only abstract available."
   skills:
-    - tensorflow
-    - Reinforcement Learning
-    - Policy Gradients
+    - Reinforcement Learning (Policy Gradients)
     - Generative Adversarial Imitation Learning
   image: assets/img/projects/thesis.jpg
   links:
@@ -23,7 +21,7 @@
   description: In 2016 we made a drone fly semi-autonomsly. We used OpenCV and a CNN to make the drone follow an authorized face in front of it.
   skills:
     - OpenCV
-    - CNN (Caffe)
+    - Caffe
   image: assets/img/projects/drone.jpg
   links:
     Website: http://www.cdtm.de/wwwDeepDrones/
@@ -31,7 +29,6 @@
 - name: MyriadHub
   description: In 2016 during my abroad semester at Stanford I worked in the HCI group under Michael Bernstein directly supervised by Nicolas Kokkalis on a website called MyriadHub. MyriadHub is a crowd source based email tool to send large campaigns and collect and analyse responses.
   skills:
-    - Ruby On Rails
     - Crowd Sourcing
     - HCI
   image: assets/img/projects/myriad.png
@@ -41,7 +38,7 @@
   description: In 2015 we developed an Apple Watch application for activity and exercise recognition for eGym during the MPD course at CDTM. For the recognition I ported the Gesture Recognition Toolkit to the Apple Watch OS and we trained a Dynamic Time Warping model to classify movements (accelerometer values).
   skills:
     - Swift
-    - DWT
+    - Dynamic Time Warping
   image: assets/img/projects/egym.png
   links:
     eGym: https://www.eGym.com
@@ -75,7 +72,7 @@
   description: Since 2012 I am regularly freelancing for Bome Software a small company based in Munich. I worked on the MidiTranslator as well as the BomeBox which is a OpenWRT/Carambola based all in one midi router.
   skills:
     - C++
-    - Midi
+    - MIDI
   image: assets/img/projects/bome.jpg
   links:
     Bome website: https://www.bome.com/
