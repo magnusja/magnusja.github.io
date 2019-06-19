@@ -1,3 +1,23 @@
+
+- name: Uncertainty estimation in Deep Learning
+  description: In a practical course at TUM we analyzed Monte Carlo (Gal et al., 2015) dropout for estimating model uncertainity using two different retinal scan datasets (segmentation).
+  skills:
+    - PyTorch
+    - MC Dropout
+  image: assets/img/projects/uncertainty_ml.jpg
+  links:
+    Github: https://u.jahnen.me/uncertainty_github
+    Presentations: https://u.jahnen.me/uncertainty_presentations
+- name: Masters Thesis
+  description: Title: Deep Inverse Reinforcement Learning for trajectory planning in fully-autonomous vehicles, received best possible grade. Under NDA, therefore only abstract available.
+  skills:
+    - tensorflow
+    - Reinforcement Learning
+    - Policy Gradients
+    _ Generative Adversarial Imitation Learning
+  image: assets/img/projects/thesis.jpg
+  links:
+    Abstract: https://u.jahnen.me/thesis_abstract
 - name: Deep Drones
   description: In 2016 we made a drone fly semi-autonomsly. We used OpenCV and a CNN to make the drone follow an authorized face in front of it.
   skills:
