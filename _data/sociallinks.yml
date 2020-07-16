@@ -7,3 +7,6 @@
 - name: GitHub 
   icon: fa-github
   link: https://u.jahnen.me/github
+- name: Devpost 
+  icon: fa-html5
+  link: https://devpost.com/magnusja
