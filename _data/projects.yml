@@ -6,8 +6,8 @@
     - MC Dropout
   image: assets/img/projects/uncertainty_ml.jpg
   links:
-    Github: https://u.jahnen.me/uncertainty_github
-    Presentations: https://u.jahnen.me/uncertainty_presentations
+    Github: https://github.com/magnusja/RelayNet
+    Presentations: https://nc.mgns.tech/s/wpCsYGNNJPTpspX
 - name: Masters Thesis
   description: "Title: Deep Inverse Reinforcement Learning for trajectory planning in fully-autonomous vehicles, received best possible grade. Under NDA, therefore only abstract available."
   skills:
@@ -15,8 +15,8 @@
     - Generative Adversarial Imitation Learning
   image: assets/img/projects/thesis.jpg
   links:
-    Abstract: https://u.jahnen.me/thesis_abstract
-    MBRDNA: https://u.jahnen.me/mbrdna
+    Abstract: https://nc.mgns.tech/s/EnPTWsemwRBQeLK
+    MBRDNA: https://mbrdna.com/
 - name: Deep Drones
   description: In 2016 we made a drone fly semi-autonomsly. We used OpenCV and a CNN to make the drone follow an authorized face in front of it.
   skills:
